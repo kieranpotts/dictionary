@@ -1,0 +1,3 @@
+= Dictionary
+
+Allowed spellings. These dictionary files are used by the Code Spell Checker extension in Visual Studio Code.
