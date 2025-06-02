@@ -1,3 +1,78 @@
 = Dictionary
 
-Allowed spellings. These dictionary files are used by the Code Spell Checker extension in Visual Studio Code.
+Dictionary files containing allowed spellings, used by the https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker[Code Spell Checker] extension in Visual Studio Code.
+
+To use the dictionary files, add the following VS Code settings:
+
+[source,json]
+----
+{
+  "cSpell.language": "en-US",
+
+  "cSpell.customDictionaries": {
+    "personalDictionary": {
+      "name": "Personal Dictionary (en-US)",
+      "path": "${workspaceFolder:dictionary}/src/en-US.txt",
+      "scope": "workspace",
+      "addWords": true
+    }
+  }
+}
+----
+
+Alternatively, to enable the en-GB dictionary, use:
+
+[source,json]
+----
+{
+  "cSpell.language": "en-GB",
+
+  "cSpell.customDictionaries": {
+    "personalDictionary": {
+      "name": "Personal Dictionary (en-GB)",
+      "path": "${workspaceFolder:dictionary}/src/en-GB.txt",
+      "scope": "workspace",
+      "addWords": true
+    }
+  }
+}
+----
+
+The above settings assume that the dictionary repository is included in a multi-root workspace in VS Code. If you instead assign the above settings to user scope, you will need to change the `path` to point to the dictionary file in your local filesystem. It is recommended to use a path within the user's home directory. Example:
+
+[source,json]
+----
+{
+  "cSpell.language": "en-US",
+
+  "cSpell.customDictionaries": {
+    "personalDictionary": {
+      "name": "Personal Dictionary",
+      "path": "~/.cspell/en-US.txt",
+      "scope": "user",
+      "addWords": true
+    }
+  }
+}
+----
+
+When the Code Spell Checker extension runs, it will automatically create the dictionary file in the specified location, if it does not already exist. To use the dictionary files in this repository, you will need to create a symlink from the source file to the target path.
+
+If VS Code is running in Windows, but if the workspace is opened in Windows Subsystem for Linux, the dictionary file will need to be installed in the guest OS. But if the workspace is opened on the host OS filesystem, the dictionary file will need to be installed in the user's home directory in WIndows. To keep the two synchronized, the dictionary repository would need to be cloned in both Windows and WSL, and symlinks created in both environments.
+
+On Windows, run Windows Powershell in administrator mode. Execute the following command, changing the filesystem paths as required.
+
+[source]
+----
+New-Item -ItemType SymbolicLink `
+  -Path "C:\Users\[User]\.cspell\en-US.txt" `
+  -Target "C:\path\to\dictionary\src\en-US.txt" `
+  -Force
+----
+
+Within WSL, run the following command:
+
+[source]
+----
+$ ln -s -f /path/to/dictionary/src/en-US.txt ~/.cspell/en-US.txt
+----
