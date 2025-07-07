@@ -63,6 +63,7 @@ Geoproximity
 gitdir
 gitmodules
 GOPATH
+grayscale
 gzipped
 hacksjs
 Hashbang
