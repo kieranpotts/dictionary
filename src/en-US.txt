@@ -68,8 +68,10 @@ gzipped
 hacksjs
 Hashbang
 hateoas
+homepage
 IIFE
 inclusivity
+jshell
 keychain
 knowledgebase
 Laravel
