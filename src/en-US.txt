@@ -21,6 +21,7 @@ browserslist
 camelcase
 chsh
 codebases
+codegen
 codenames
 Codepen
 Codespaces
