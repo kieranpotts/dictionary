@@ -16,6 +16,7 @@ backreference
 backreferenced
 backreferences
 backreferencing
+Bashism
 BJSS
 browserslist
 camelcase
