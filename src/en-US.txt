@@ -100,6 +100,7 @@ nonoctal
 octals
 Overtype
 PCRE
+peacemeal
 pgdown
 pgup
 pluggable
