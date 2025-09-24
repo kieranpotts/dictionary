@@ -121,6 +121,7 @@ reflog
 regexes
 renormalize
 replatforming
+resends
 résumé
 résumés
 roadmaps
