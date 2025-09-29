@@ -133,6 +133,7 @@ sharded
 speciality
 Specsavers
 stackoverflow
+stepwise
 strictfp
 styleguide
 stylesheet
