@@ -143,6 +143,7 @@ Symfony
 tabindex
 templating
 Thoughtworks
+Timebox
 toolchains
 toolsmiths
 transcompilation
