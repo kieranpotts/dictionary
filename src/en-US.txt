@@ -156,6 +156,7 @@ Ungreedy
 unmarshalling
 unselectable
 userland
+userspace
 vals
 vars
 vimdiff
