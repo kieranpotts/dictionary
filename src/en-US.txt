@@ -2,6 +2,7 @@ accesskey
 adoc
 affordance
 affordances
+agentic
 agnoster
 Antora
 arity
