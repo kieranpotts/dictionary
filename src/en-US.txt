@@ -96,6 +96,7 @@ metacharacters
 mockups
 mountpoint
 mountpoints
+multimodality
 nanoservices
 nonblock
 nonconstructor
