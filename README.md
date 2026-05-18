@@ -1,11 +1,10 @@
-= Dictionary
+# Dictionary
 
-Dictionary files containing allowed spellings, used by the https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker[Code Spell Checker] extension in Visual Studio Code.
+Dictionary files containing allowed spellings, used by the [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension in Visual Studio Code.
 
 To use the dictionary files, add the following VS Code settings:
 
-[source,json]
-----
+```json
 {
   "cSpell.language": "en-US",
 
@@ -18,12 +17,11 @@ To use the dictionary files, add the following VS Code settings:
     }
   }
 }
-----
+```
 
 Alternatively, to enable the en-GB dictionary, use:
 
-[source,json]
-----
+```json
 {
   "cSpell.language": "en-GB",
 
@@ -36,12 +34,11 @@ Alternatively, to enable the en-GB dictionary, use:
     }
   }
 }
-----
+```
 
 The above settings assume that the dictionary repository is included in a multi-root workspace in VS Code. If you instead assign the above settings to user scope, you will need to change the `path` to point to the dictionary file in your local filesystem. It is recommended to use a path within the user's home directory. Example:
 
-[source,json]
-----
+```json
 {
   "cSpell.language": "en-US",
 
@@ -54,7 +51,7 @@ The above settings assume that the dictionary repository is included in a multi-
     }
   }
 }
-----
+```
 
 When the Code Spell Checker extension runs, it will automatically create the dictionary file in the specified location, if it does not already exist. To use the dictionary files in this repository, you will need to create a symlink from the source file to the target path.
 
@@ -62,17 +59,15 @@ If VS Code is running in Windows, but if the workspace is opened in Windows Subs
 
 On Windows, run Windows Powershell in administrator mode. Execute the following command, changing the filesystem paths as required.
 
-[source]
-----
+```
 New-Item -ItemType SymbolicLink `
   -Path "C:\Users\[User]\.cspell\en-US.txt" `
   -Target "C:\path\to\dictionary\src\en-US.txt" `
   -Force
-----
+```
 
 Within WSL, run the following command:
 
-[source]
-----
+```
 $ ln -s -f /path/to/dictionary/src/en-US.txt ~/.cspell/en-US.txt
-----
+```
