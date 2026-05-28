@@ -82,6 +82,7 @@ knowledgebase
 Laravel
 lazygit
 lcov
+lifecycles
 linebreak
 linted
 linters
@@ -176,6 +177,7 @@ webpage
 webpages
 website
 websites
+wireframes
 worktree
 Xdebug
 Zapmap
