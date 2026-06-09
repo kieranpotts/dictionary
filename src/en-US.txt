@@ -22,6 +22,7 @@ Bashism
 BJSS
 browserslist
 camelcase
+chatbots
 chsh
 codebases
 codegen
