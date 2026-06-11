@@ -139,6 +139,7 @@ rulesets
 runbook
 runtimes
 scriptable
+SDLC
 sharded
 speciality
 Specsavers
