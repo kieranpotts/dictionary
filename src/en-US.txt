@@ -155,6 +155,7 @@ supersets
 Symfony
 tabindex
 templating
+textareas
 Thoughtworks
 Timebox
 toolchains
@@ -171,6 +172,7 @@ userland
 userspace
 vals
 vars
+viewports
 vimdiff
 virtualizes
 visualstudio
