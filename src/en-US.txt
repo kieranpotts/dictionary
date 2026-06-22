@@ -6,6 +6,7 @@ agentic
 agnoster
 Antora
 arity
+asciibook
 asciidoctor
 autocrlf
 autodetected
