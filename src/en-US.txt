@@ -75,6 +75,7 @@ hacksjs
 Hashbang
 hateoas
 homepage
+idempotently
 IIFE
 inclusivity
 jshell
