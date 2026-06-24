@@ -42,6 +42,7 @@ dedupes
 defragmentation
 Deno
 denormalization
+deprioritized
 difftool
 difftools
 distros
@@ -69,6 +70,7 @@ Geolocation
 Geoproximity
 gitdir
 gitmodules
+Glassdoor
 GOPATH
 grayscale
 gzipped
@@ -166,6 +168,7 @@ transcompilation
 transcompile
 transcompiler
 transcompilers
+Trustpilot
 tsdoc
 Ungreedy
 unmarshalling
