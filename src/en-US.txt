@@ -91,6 +91,7 @@ lifecycles
 linebreak
 linted
 linters
+lockfiles
 lookaheads
 lookaround
 lookarounds
