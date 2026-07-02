@@ -136,6 +136,9 @@ reflog
 regexes
 renormalize
 replatforming
+repointed
+repointing
+repoints
 resends
 résumé
 résumés
