@@ -47,6 +47,7 @@ difftool
 difftools
 distros
 docblocks
+docstrings
 dogfooded
 dotfile
 dotfiles
