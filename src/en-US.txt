@@ -162,6 +162,7 @@ Specsavers
 stackoverflow
 stepwise
 strictfp
+strikethrough
 styleguide
 stylesheet
 subnetworks
