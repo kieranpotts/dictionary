@@ -21,6 +21,7 @@ backreferencing
 backronym
 Bashism
 BJSS
+blockquotes
 browserslist
 camelcase
 chatbots
