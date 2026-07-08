@@ -155,6 +155,7 @@ sandboxing
 sapien
 scriptable
 SDLC
+setext
 sharded
 speciality
 Specsavers
