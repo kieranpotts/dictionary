@@ -105,6 +105,8 @@ mergetools
 metacharacter
 metacharacters
 mockups
+Modelfile
+Modelfiles
 mountpoint
 mountpoints
 multimodal
