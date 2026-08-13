@@ -3,7 +3,7 @@
 Custom spelling dictionary word lists (`en-US`, `en-GB`) used by the
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 VS Code extension. Consumers symlink or reference these files directly
-from `cSpell.customDictionaries` settings — see `README.md` for the
+from `cSpell.customDictionaries` settings. See `README.md` for the
 exact settings and symlink commands for Windows/WSL.
 
 ## Tech stack
@@ -13,10 +13,10 @@ exact settings and symlink commands for Windows/WSL.
 
 ## Project structure
 
-- **`src/en-US.txt`** \
+- `src/en-US.txt` \
   American English custom dictionary.
 
-- **`src/en-GB.txt`** \
+- `src/en-GB.txt` \
   British English custom dictionary.
 
 ## References
