@@ -21,4 +21,4 @@ exact settings and symlink commands for Windows/WSL.
 
 ## References
 
-- **[TS-9: Version Control](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/009/AGENTS.md)**
+- **[TS-9: Version Control](https://kieranpotts.com/standards/009)**
