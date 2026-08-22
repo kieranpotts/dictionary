@@ -184,6 +184,7 @@ templating
 textareas
 Thoughtworks
 Timebox
+timeboxing
 toolchains
 toolkits
 toolsmiths
