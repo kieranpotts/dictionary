@@ -175,6 +175,7 @@ strikethrough
 styleguide
 stylesheet
 subnetworks
+subtyping
 superset
 supersets
 Symfony
