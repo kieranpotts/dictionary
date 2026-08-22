@@ -36,6 +36,7 @@ Codespaces
 Colocating
 commoditized
 Concatenative
+Creational
 culting
 cutover
 Cyclomatic
