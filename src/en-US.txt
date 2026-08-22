@@ -41,6 +41,7 @@ culting
 cutover
 Cyclomatic
 cyclometric
+Cynefin
 Datagram
 datatracker
 decompiler
