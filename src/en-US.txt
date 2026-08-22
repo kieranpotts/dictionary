@@ -35,6 +35,7 @@ Codepen
 Codespaces
 Colocating
 commoditized
+Concatenative
 culting
 cutover
 Cyclomatic
