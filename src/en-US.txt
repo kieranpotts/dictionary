@@ -133,6 +133,7 @@ pluggable
 plusplus
 poshthemes
 POSIX
+postconditions
 Postel's
 postversion
 powerline
