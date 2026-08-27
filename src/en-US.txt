@@ -166,6 +166,7 @@ scriptable
 SDLC
 setext
 sharded
+Shrinkwrapped
 speciality
 Specsavers
 stackoverflow
