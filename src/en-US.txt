@@ -141,6 +141,7 @@ postversion
 powerline
 preg
 preversion
+quantifiably
 rebalancing
 rebrand
 rebranded
