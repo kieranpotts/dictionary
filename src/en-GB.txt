@@ -3,6 +3,7 @@ Hadoop's
 Helastel
 HPCC
 Kabi
+Laravel
 Nexis
 Redgate
 Specsavers
