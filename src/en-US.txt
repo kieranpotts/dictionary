@@ -28,6 +28,7 @@ blockquotes
 browserslist
 camelcase
 chatbots
+chokepoint
 chsh
 codebases
 codegen
