@@ -26,6 +26,7 @@ Bashism
 BJSS
 blockquotes
 browserslist
+Bursty
 camelcase
 chatbots
 chokepoint
@@ -161,6 +162,7 @@ resends
 résumé
 résumés
 roadmaps
+rollouts
 ruleset
 rulesets
 runbook
