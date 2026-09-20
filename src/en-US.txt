@@ -185,6 +185,7 @@ styleguide
 stylesheet
 subnetworks
 subtyping
+superinterface
 superset
 supersets
 Symfony
