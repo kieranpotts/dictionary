@@ -203,6 +203,7 @@ transcompilation
 transcompile
 transcompiler
 transcompilers
+transpiles
 triaging
 Trustpilot
 tsdoc
