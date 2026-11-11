@@ -91,6 +91,7 @@ hacksjs
 Hashbang
 hateoas
 headlessly
+headspace
 homepage
 idempotently
 IIFE
@@ -122,6 +123,7 @@ mountpoints
 multimodal
 multimodality
 nanoservices
+newswire
 nirvarnia
 nonblock
 nonconstructor
