@@ -41,6 +41,8 @@ commoditization
 commoditized
 Concatenative
 Creational
+cryptanalysts
+cryptosystems
 culting
 cutover
 Cyclomatic
