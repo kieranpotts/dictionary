@@ -23,6 +23,7 @@ backreferences
 backreferencing
 backronym
 Bashism
+bashisms
 BJSS
 blockquotes
 browserslist
@@ -85,6 +86,7 @@ gantt
 Geolocation
 Geoproximity
 gitdir
+gitex
 gitmodules
 Glassdoor
 GOPATH
