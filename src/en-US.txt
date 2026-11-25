@@ -129,7 +129,6 @@ multimodal
 multimodality
 nanoservices
 newswire
-nirvarnia
 nonblock
 nonconstructor
 nonoctal
